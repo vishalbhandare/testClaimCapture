@@ -1,0 +1,350 @@
+# ===========================================
+# NODE.JS .GITIGNORE
+# ===========================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production build
+dist/
+build/
+out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ===========================================
+# ENVIRONMENT & CONFIGURATION
+# ===========================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files (if they contain sensitive data)
+config/local.json
+config/production.json
+config/development.json
+
+# ===========================================
+# GOOGLE SHEETS & AUTHENTICATION
+# ===========================================
+
+# Google Cloud credentials
+google-credentials.json
+service-account-key.json
+service-account.json
+gcp-key.json
+google-service-account.json
+
+# Firebase credentials
+firebase-adminsdk.json
+firebase-config.json
+
+# JWT keys
+jwt-private.key
+jwt-public.key
+*.pem
+
+# ===========================================
+# LOGS
+# ===========================================
+
+# Application logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime logs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================================
+# OPERATING SYSTEM FILES
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# DEVELOPMENT TOOLS
+# ===========================================
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.sublime-workspace
+.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# TESTING
+# ===========================================
+
+# Test coverage
+coverage/
+.nyc_output/
+.coverage
+htmlcov/
+.pytest_cache/
+.cache
+
+# Jest
+jest.config.js
+__tests__/
+*.test.js
+*.spec.js
+
+# ===========================================
+# DEPLOYMENT & BUILD
+# ===========================================
+
+# Deployment files (if containing sensitive info)
+.deployment
+deploy.sh
+.deploy/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Heroku
+.heroku/
+
+# Vercel
+.vercel/
+.now/
+
+# Railway
+.railway/
+
+# ===========================================
+# TEMPORARY FILES
+# ===========================================
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Lock files (optional - some prefer to commit these)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===========================================
+# DATABASES
+# ===========================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Database dumps
+*.sql
+*.dump
+
+# ===========================================
+# CERTIFICATES & KEYS
+# ===========================================
+
+# SSL certificates
+*.crt
+*.key
+*.pem
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_rsa.pub
+known_hosts
+
+# ===========================================
+# MONITORING & ANALYTICS
+# ===========================================
+
+# Error tracking
+sentry.properties
+.sentry/
+
+# Analytics
+.analytics/
+
+# ===========================================
+# BACKUP & ARCHIVE
+# ===========================================
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ===========================================
+# MISC
+# ===========================================
+
+# Runtime
+.sass-cache/
+.connect.lock
+.grunt
+.lock-wscript
+.wafpickle-N
+.*.swp
+.DS_Store?
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next/
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+.tmp
+.temp
+
+# ===========================================
+# PROJECT SPECIFIC
+# ===========================================
+
+# Excel files (if storing test data)
+*.xlsx
+*.xls
+*.csv
+
+# API documentation (if auto-generated)
+docs/api/
+
+# Custom ignore patterns for your project
+# Add any project-specific files/folders here
+.vercel
